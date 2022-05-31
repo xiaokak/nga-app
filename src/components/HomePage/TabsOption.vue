@@ -10,6 +10,7 @@
     <var-tab>赛事</var-tab>
     <var-tab>聊天室</var-tab>
   </var-tabs>
+  <var-divider :margin="0"/>
 </template>
 
 <script setup>

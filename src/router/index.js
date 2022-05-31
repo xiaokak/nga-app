@@ -2,6 +2,8 @@ import { createRouter, createWebHashHistory } from 'vue-router'
 
 import HomePage from '@/views/HomePage'
 import FollowPage from '@/views/FollowPage'
+import CommunityPage from '@/views/CommunityPage'
+import PersonalPage from '@/views/PersonalPage'
 
 const routes = [
   {
@@ -18,6 +20,16 @@ const routes = [
     path: '/FollowPage',
     name: 'followpage',
     component: FollowPage
+  },
+  {
+    path: '/CommunityPage',
+    name: 'communitypage',
+    component: CommunityPage
+  },
+  {
+    path: '/PersonalPage',
+    name: 'personalpage',
+    component: PersonalPage
   },
   {
     path: '/about',
